@@ -30,4 +30,24 @@ public class Maraton {
 			inorden(node.getRigth());
 		}
 	}
+	
+	public void countHeigth() {
+		int hg= countHeigth(rootProgrammer);
+		System.out.println("The heigth of the tree is: "+hg);
+	}
+	
+	private int countHeigth(Programmer node) {
+		if(node==null) {
+			return 0;
+		}
+		else {
+			int hl= countHeigth(node.getLeft());
+			int hr= countHeigth(node.getRigth());
+			
+			if(hl>hr)
+				return hl+1;
+			else
+				return hr+1;
+		}
+	}
 }

@@ -13,7 +13,9 @@ public class Main {
 		mn.addProgrammer("Lola", "3154622014", "CR 51 #56-45", "juan@gmail.com");
 		mn.addProgrammer("Esteban", "3154622014", "CR 51 #56-45", "juan@gmail.com");
 		mn.addProgrammer("Francisco", "3154622014", "CR 51 #56-45", "juan@gmail.com");
+		mn.addProgrammer("Xavi", "3154622014", "CR 51 #56-45", "juan@gmail.com");
 		
 		mn.ejectInorden();
+		mn.countHeigth();
 	}
 }
